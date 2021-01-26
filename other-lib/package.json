@@ -1,0 +1,22 @@
+{
+  "name": "zipline-lib",
+  "version": "0.1.0",
+  "description": "Test Library",
+  "main": "lib/index.js",
+  "author": "Jeremy Blalock",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "compile": "babel src --out-dir lib --source-maps",
+    "start": "yarn compile --watch"
+  },
+  "dependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "next-workspaces-test",
+  "private": true,
+  "workspaces": ["frontend", "other-lib"]
+}
